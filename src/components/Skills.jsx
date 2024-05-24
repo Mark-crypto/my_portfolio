@@ -16,12 +16,12 @@ const Skills = () => {
         <img src={javascript} alt="javascript" />
         <img src={react} alt="react" />
         <img src={github} alt="github" />
-        <img src={nodejs} alt="nodejs" />
+        <img src={nodejs} alt="nodejs" className="no-display" />
       </div>
       <div className="skills2">
         <img src={java} alt="java" />
         <img src={express} alt="express" />
-        <img src={bootstrap} alt="bootstrap" />
+        <img src={bootstrap} alt="bootstrap" className="no-display" />
         <img src={aws} alt="aws" />
       </div>
     </div>

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="textbox">
-        <p>
+        <p className="textbox-title">
           <span style={{ color: "#009900" }}>mark@terminal: ~ $</span> cat
           about_yourself.txt
         </p>

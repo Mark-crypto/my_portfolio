@@ -27,6 +27,7 @@ body {
   padding: 20px 0px 20px 0px;
 }
 nav {
+  max-width: 100%;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -163,19 +164,46 @@ nav {
 }
 /*Phones*/
 @media only screen and (max-width: 600px) {
+  /* FINE */
   .about {
-    display: flex;
-    flex-direction: column;
+    height: max-content;
+    width: 100%;
   }
   .about .textbox {
-    max-width: 90%;
     margin: 20px;
+    height: 400px;
+    width: 100%;
+    height: max-content;
   }
   .about .aboutImg {
     display: none;
   }
   .about .textbox-description {
-    font-size: 15px;
+    font-size: 12px;
+    width: 90%;
+  }
+  .textbox-title {
+    font-size: 12px;
+  }
+  .skills {
+    width: 100%;
+  }
+  .skills img {
+    width: 40px;
+    height: 40px;
+  }
+  .skills1 {
+    margin-top: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+  }
+  .skills2 {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
   }
   .projects-card {
     display: flex;
@@ -183,4 +211,23 @@ nav {
     align-items: center;
     gap: 2em;
   }
+  .projects-btn button {
+    width: 200px;
+    font-weight: bold;
+  }
+  .contact button {
+    width: 150px;
+  }
+  .title {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  nav {
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  /* END */
+  /* .no-display {
+    display: none;
+  } */
 }
