@@ -161,3 +161,26 @@ nav {
 .footer-down {
   margin-top: 20px;
 }
+/*Phones*/
+@media only screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .textbox {
+    max-width: 90%;
+    margin: 20px;
+  }
+  .about .aboutImg {
+    display: none;
+  }
+  .about .textbox-description {
+    font-size: 15px;
+  }
+  .projects-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+}
