@@ -14,7 +14,7 @@ const Projects = () => {
         <a href="https://backroads-sec-app.netlify.app/">
           <ProfileCard1 />
         </a>
-        <a href="https://github.com/Mark-crypto/property_management_system">
+        <a href="https://one.abongo.co.ke/">
           <ProfileCard2 />
         </a>
       </div>

@@ -13,10 +13,7 @@ function ProfileCard2() {
     <Card style={{ width: "18rem", background: "#202020", color: "white" }}>
       <Card.Img variant="top" src={property} style={{ height: "200px" }} />
       <Card.Body>
-        <a
-          href="https://github.com/Mark-crypto/property_management_system"
-          target="_blank"
-        >
+        <a href="https://one.abongo.co.ke/" target="_blank">
           <Button
             style={{
               background: "#4b0082",
